@@ -28,6 +28,8 @@ export default class App extends Component {
         this.setState(prevState => ({
           bad: prevState.bad + 1,
         }));
+        default: 
+        console.log("Error in switch");
     }
   };
 
